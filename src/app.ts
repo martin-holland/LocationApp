@@ -6,7 +6,9 @@ const form = document.querySelector('form')!;
 const addressInput = document.getElementById('address')! as HTMLInputElement;
 
 const GOOGLE_API_KEY = "AIzaSyAb8LDRqUOhRoxYmH7Oop1F-aIMVKAT4io"
-declare let google: any;
+// declare let google: any; // before installation of npm install --save @types/google.maps for type declarations library
+
+
 
 // custom type for Google GeoCoding
 type GoogleGeoCodingResponse = {
